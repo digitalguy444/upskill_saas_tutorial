@@ -23,6 +23,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 
 .home-callout{
+  color:white;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -34,5 +35,15 @@ h1,h2,h3 {
 
 .navbar {
   border:none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+  color:white;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{ /*hover of about and deevmatch elements in navbar*/
+  color: #d9d9d9;
+    background-color: transparent;
 }
 
