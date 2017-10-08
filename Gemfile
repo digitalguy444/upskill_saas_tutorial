@@ -31,6 +31,8 @@ gem 'jbuilder', '2.5.0'
 #use twitter bootstrap library for frontend UI and layout 
 gem "bootstrap-sass", '3.3.7'
 
+
+
 #font awesome gem 
 gem 'font-awesome-sass', '~> 4.6.2'
 

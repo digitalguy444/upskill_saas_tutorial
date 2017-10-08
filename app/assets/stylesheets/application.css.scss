@@ -39,6 +39,26 @@ h1,h2,h3 {
   border:none;
 }
 
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  color:white;
+  background-color:white;
+}
+
+.navber-default .navbar-toggle{
+  border:2px solid white;
+ 
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  color:#f2f2f2
+}
+
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
   color:white;
@@ -47,6 +67,5 @@ h1,h2,h3 {
     opacity:.75;
   }
 }
-
 
 
