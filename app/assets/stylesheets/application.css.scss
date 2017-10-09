@@ -51,11 +51,10 @@ h1,h2,h3 {
 
 .navber-default .navbar-toggle{
   border:2px solid white;
+  &:hover &:focus{
+      color:#f2f2f2
+  }
  
-}
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-  color:#f2f2f2
 }
 
 
